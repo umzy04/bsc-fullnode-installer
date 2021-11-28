@@ -69,6 +69,11 @@ systemctl enable geth
 systemctl start geth
 ```
 
+#Show Geth status
+```
+systemctl status geth
+```
+
 # Show logs
 ```
 tail -F /home/geth/mainnet/bsc.log
@@ -92,4 +97,4 @@ systemctl start geth
 ```
 
 # Credits
-The all procedures was written by PhatJay#4958.
+The all procedures was written by PhatJay#4958 & Charlie Dimaggio#4817.
