@@ -69,7 +69,7 @@ systemctl enable geth
 systemctl start geth
 ```
 
-#Show Geth status
+# Show GETH Status
 ```
 systemctl status geth
 ```
