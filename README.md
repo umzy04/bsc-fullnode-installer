@@ -96,5 +96,16 @@ chown -R geth.geth ./mainnet
 systemctl start geth
 ```
 
+# How to Update GETH
+```
+systemctl stop geth
+cd /home/geth
+rm geth_linux
+wget https://github.com/binance-chain/bsc/releases/download/v1.1.6/geth_linux
+chown geth.geth geth_linux
+chmod +x geth_linux
+systemctl start geth
+```
+
 # Credits
 The all procedures was written by PhatJay#4958 & Charlie Dimaggio#4817.
